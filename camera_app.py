@@ -17,7 +17,7 @@ def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="YOLOv8 live")
     parser.add_argument(
         "--webcam-resolution",
-        default=[1280, 720],
+        default=[1920, 1080],
         nargs=2,
         type=int
     )
@@ -70,7 +70,7 @@ def main():
         zone.trigger(detections=detections)
         frame = zone_annotator.annotate(scene=frame)
 
-        cv2.imshow("yolov8", frame)
+        cv2.imshow("YOLOv8 Demo", frame)
 
         if cv2.waitKey(30) == 27:
             break
