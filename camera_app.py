@@ -17,7 +17,7 @@ def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="YOLOv8 live")
     parser.add_argument(
         "--webcam-resolution",
-        default=[1920, 1080],
+        default=[1080, 720],
         nargs=2,
         type=int
     )
