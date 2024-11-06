@@ -1,4 +1,4 @@
-# Desktop App simulated object detection based on YOLOv8 Model
+# Desktop App simulating object detection based on YOLOv8 Model
 ![Screenshot](Screenshot.png)   
 
 ### To install required dependencies, run command:  
